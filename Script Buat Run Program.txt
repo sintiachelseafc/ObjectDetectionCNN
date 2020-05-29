@@ -1,2 +1,2 @@
-python ObjectDetectionVideo.py --prototxt deploy.prototxt --model mobilenet_iter_73000.caffemodel
-python namafile.py --prototxt deploy.prototxt --model mobilenet_iter_73000.caffemodel -- image nama_gambar.jpg
+python Video.py --prototxt deploy.prototxt --model mobilenet_iter_73000.caffemodel
+python Detection.py --prototxt deploy.prototxt --model mobilenet_iter_73000.caffemodel -- image nama_gambar.jpg
